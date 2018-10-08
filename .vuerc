@@ -1,0 +1,20 @@
+{
+  "packageManager": "npm",
+  "presets": {
+    "new": {
+      "useConfigFiles": false,
+      "plugins": {
+        "vue-cli-plugin-weex": {},
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-eslint": {
+          "config": "base",
+          "lintOn": [
+            "save"
+          ]
+        }
+        
+      }
+    }
+  },
+  "useTaobaoRegistry": false
+}
